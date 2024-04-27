@@ -1,0 +1,50 @@
+/* src/style.css */
+body {
+  background-color: #b9d2ee;
+  color: #291b75;
+}
+.app-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.create-account-form, .check-balance-form, .transfer-money-form {
+  margin-bottom: 20px;
+  border: 2px solid #291b75; /* Add border to form containers */
+}
+
+.create-account-form, .check-balance-form, .transfer-money-form form {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+button {
+  color: #b9d2ee;
+  background-color: #291b75;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.message-box {
+  margin-top: 10px;
+  padding: 5px;
+ }
+
+h1, h3{
+  color: #291b75;
+  text-align: center;
+}
